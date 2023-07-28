@@ -49,11 +49,6 @@ html {
     padding: 5px;
 }
 
-.infobox-contents img {
-    height: 75%;
-    width: 75%;
-}
-
 .textbox {
     background: linear-gradient(#1e0eff, #15123f);
     padding: 10px;
