@@ -33,14 +33,26 @@
             <div class="infobox-contents">
                 <img src="i/peacesign.png" width="300">
 
-                <div class="textbox">AME: <br>BE FUCKING CAREFUL!!!!! <br>sluts are evervwhere<br><br><div style=display:inline-block;margin-left:95%>▼</div></div>
+                <div class="textbox">
+                    AME: <br><p id="boxtext">BE FUCKING CAREFUL!!!!! <br>sluts are evervwhere<br><br></p>
+                    <div class="advance"><button id="advancebutton" type="button">▼</button></div>
+                </div>
                 <br>
-                this website is a part of ringworm webring! check my friendz out
-                <div style="text-align: center;"><br><button><a href="https://kikiash.neocities.org">♥</a></button> <button><a href="https://bnyg1rl.neocities.org">♥</a></button> <button><a href="https://mcrplstcs.neocities.org">♥</a></button></div>
+                this website is a part of ringworm webring!
                 <br>
-                also heres some buttons if u want them
-                <div style="text-align: center;"><a href="https://ame.place"><img src="i/amewormbutton.png"></a> <a href="https://ame.place"><img src="i/alternativebutton.png"></a></div>
+                <br>
+                <div style="text-align: center;"><a href="https://kikiash.neocities.org"><img src="https://kikiash.neocities.org/kikiashneocitiesbutton.png"></a> <a href="https://bnyg1rl.neocities.org"><img src="i/bnybutton.png"></a> <a href="https://mcrplstcs.neocities.org"><img src="i/microbutton.gif"> <a href="https://www.youtube.com/watch?v=nCZs29IAu3c"><img src="i/hellzonebutton.gif"></a>
+                <br>
+                <a href="https://ame.place"><img src="i/amewormbutton.png"></a> <a href="https://ame.place"><img src="i/alternativebutton.png"></a></div>
             </div>
         </div>
+
+        <script>
+            const btn = document.getElementById("advancebutton");
+
+            btn.onclick = function(){
+                document.getElementById("boxtext").innerHTML = "too late, too late to repair our broken clock,<br> so we must say bye-bye. too late, too late<br>to love you again. kiss it goodbye.<br>";
+            };
+        </script>
     </body>
 </html>
