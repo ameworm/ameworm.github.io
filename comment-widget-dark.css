@@ -124,10 +124,10 @@
 .c-input {
     padding: 4px;
     color: black;
-    border: 1px solid #2D0B52;
+    border: 1px solid #c98dba;
 	outline: none;
 }
-.c-input:focus {border: 1px solid #B766FF;}
+.c-input:focus {border: 1px solid #dba3cd;}
 
 .c-textInput {
     width: calc(100% - 10px);
@@ -148,8 +148,8 @@
 .c-comment {
     margin-bottom: 15px;
     padding: 10px;
-    border: 2px solid white;
-    background-color: #2D0B52; 
+    border: solid #c98dba;
+    background-color: #c98dba;
 }
 .c-reply {
     display: block;
@@ -158,15 +158,16 @@
     margin-left: auto;
     margin-right: 0;
     padding: 10px;
-    border: 2px solid white;
-    background-color: #2D0B52; 
+    border: solid #c98dba;
+    background-color: #c98dba;
 }
 .c-reply:last-child {margin-bottom: 0;}
 .c-replyContainer {
     margin: -10px;
     margin-top: 10px;
     padding: 10px;
-    background-color: black;
+    background-color: #fff;
+    color: #000;
 }
 
 .c-name {
@@ -195,8 +196,8 @@
     font-family: Verdana;
     font-size: 14px;
     text-align: justify;
-    color: white;
-    background-color: black;
+    background-color: #fff;
+    color: #000;
 }
 
 /* Pagination */
