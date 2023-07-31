@@ -140,7 +140,7 @@
     margin-right: 0;
 }
 #c_replyingText {
-    color: white;
+    color: #000;
     text-align: right;
 }
 
@@ -183,7 +183,7 @@
     text-decoration: none;
     color: #B766FF;
 }
-.c-site:hover {color: white;}
+.c-site:hover {color: #000;}
 .c-timestamp {
     float: right;
     opacity: 75%;
