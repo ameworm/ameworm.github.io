@@ -24,7 +24,7 @@ const s_websiteId = '1214942070'; // The Website field ID
 const s_textId = '937674909'; // The Text field ID
 const s_pageId = '386096555'; // The Page field ID
 const s_replyId = '1127519482'; // The Reply field ID
-const s_sheetId = '1p3wJSy6ZeGNkeNOs2mWT5va1M8Sy1bKsMSyKaASWLwY'; // The Google Sheet
+const s_sheetId = '1_1BDPe2suT1FW-AbFGM5rjpXo3sUnmUQodYEk_C8-Vo'; // The Google Sheet
 
 // Misc - Other random settings
 const s_commentsPerPage = 4; // The max amount of comments that can be displayed on one page, any number >= 1 (Replies not counted)
