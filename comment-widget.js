@@ -31,7 +31,7 @@ const s_commentsPerPage = 4; // The max amount of comments that can be displayed
 const s_maxLength = 500; // The max character length of a comment
 const s_maxLengthName = 16; // The max character length of a name
 const s_commentsOpen = true; // Change to false if you'd like to close your comment section site-wide (Turn it off on Google Forms too!)
-const s_collapsedReplies = true; // True for collapsed replies with a button, false for replies to display automatically
+const s_collapsedReplies = false; // True for collapsed replies with a button, false for replies to display automatically
 const s_longTimestamp = false; // True for a date + time, false for just the date
 const s_includeUrlParameters = false; // Makes new comment sections on pages with URL parameters when set to true (If you don't know what this does, leave it disabled)
 
